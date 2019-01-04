@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(238,238,238);
+}
+
+div#grafikajx {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+div#grafikajx a img {
+    border: none;
+}
+
+div#menuej {
+    background-color: rgb(153,51,51);
+    position: absolute;
+    left: 0;
+    top: 179px;
+    width: 153px;
+    height: 600px;
+}
+
+div#enhav {
+    position: absolute;
+    left: 153px;
+    top: 179px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul#menu {
+    margin: 0;
+    padding: 0;
+}
+
+ul#menu li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    font-size: 130%;
+    text-align: center;
+}
+
+ul#menu li a:active, ul#menu li a:visited, ul#menu li a:link {
+    color: #ffff66;
+    text-decoration: none;
+}
+
+ul#menu li a:hover {
+    color: #ffff66;
+    text-decoration: underline;
+}
+
+a:active, a:visited, a:link {color: blue; }
+a:hover {color: #cc0000; }
+a { text-decoration: underline; }
+
+h1 {
+    font-family: arial, sans-serif;
+    font-style: italic;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+div.skatol, div.skatol-largx {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.skatol {
+    width: 278px;
+}
+
+div.skatol-largx {
+    width: auto;
+}
+
+div.skatol-titol {
+    background-color: #cccc66;
+    text-align: center;
+    border: 1px solid #660000;
+    
+    font-family: Verdana, georgia, "lucida console", sans-serif;
+    font-size: 134%;
+    color: #993333;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+div.skatol-enhav {
+    background-color: #ffffcc;
+    padding: 10px;
+    border-left: 1px solid #660000;
+    border-right: 1px solid #660000;
+    border-bottom: 1px solid #660000;
+}
+
+div.tabl-titol {
+    font-family: arial, sans-serif;
+    font-size: 120%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+table.datumoj {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: 1px solid #660000;
+}
+
+table.datumoj tr th {
+    background-color: #cccc66;
+    color: #993333;
+    border-bottom: 1px solid #660000;
+    font-family: Verdana, georgia, "lucida console", sans-serif;
+}
+
+table.datumoj tr td {
+    background-color: #ffffcc;
+    padding: 3px;
+}
+
+table.datumoj tr th, table.datumoj tr td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+p.eraro {
+    font-weight: bold;
+    color: red;
+}
+
+table#kvantoj tr td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table#kvantoj tr td img {
+    position: relative;
+    top: 10px;
+}
+
+div.demand {
+    font-weight: bold;
+    
+}
+
+div.respond {
+    margin-top: 0.4em;
+    margin-bottom: 1.5em;
+}
+
+div.maldekstr, div.dekstr {
+    float: left;
+}
+
+div.maldekstr {
+    margin-right: 20px;
+}
+
+div.grava {
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    color: #993333;
+}
